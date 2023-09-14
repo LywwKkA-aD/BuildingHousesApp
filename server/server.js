@@ -9,6 +9,12 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(cors({ origin: '*' }));
 
+app.use(cors({
+    origin: ["http://104.248.36.229", "http://localhost:3000"],  // Add your frontend's address
+    methods: ["GET", "POST", "PUT", "DELETE"],
+    credentials: true  // This allows session cookies to be sent back and forth
+  }));
+
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
 });
