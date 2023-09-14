@@ -21,7 +21,7 @@ const HouseCardComponent = ({ house }) => {
 
     const handleSubmitClick = async () => {
         try {
-            const response = await fetch(`/houses/${updatedHouse.id}`, {
+            const response = await fetch(`http://localhost:3001/houses/${updatedHouse.id}`, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json'

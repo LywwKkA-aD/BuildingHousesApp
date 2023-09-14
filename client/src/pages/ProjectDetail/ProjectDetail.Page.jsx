@@ -14,7 +14,7 @@ const ProjectDetailPage = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    fetch('/houses')
+    fetch('http://localhost:3001/houses')
         .then(response => {
             if (!response.ok) {
                 throw new Error(`HTTP error! Status: ${response.status}`);
