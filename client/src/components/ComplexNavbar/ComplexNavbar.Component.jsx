@@ -136,7 +136,7 @@ function NavList() {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
       <NavListMenu />
       {navListItems.map(({ label, icon, path }) => (
-        <Link to={path} key={label} onClick={() => setIsMenuOpen(false)}>
+        <Link to={path} key={label}>
           <Typography
             variant="small"
             color="blue-gray"
