@@ -6,7 +6,7 @@ const HouseListComponent = () => {
     const [plans, setPlans] = useState([]);
 
     useEffect(() => {
-        Promise.all([fetch('http://localhost:3001/houses'), fetch('http://localhost:3001/plans')])
+        Promise.all([fetch('/houses'), fetch('/plans')])
             .then(([housesResponse, plansResponse]) => {
                 if (!housesResponse.ok) {
                     throw new Error(`HTTP error! Status: ${housesResponse.status}`);
