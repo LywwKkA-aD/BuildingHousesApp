@@ -1,21 +1,41 @@
 import { Typography } from "@material-tailwind/react";
 import logo from "../../assets/logo.png";
 import React from 'react';
+import { Link } from 'react-router-dom';
  
 const LINKS = [
   {
     title: "Главная",
-    items: ["О Нас", "Почему мы?", "Наше портфолио", "Готовые проекты", "Отзывы", "Контакты"],
+    items: [
+      { name: "О Нас", link: "/" },
+      { name: "Почему мы?", link: "/" },
+      { name: "Наше портфолио", link: "/" },
+      { name: "Готовые проекты", link: "/" },
+      { name: "Отзывы", link: "/" },
+      { name: "Контакты", link: "/" }
+    ],
   },
   {
     title: "Страницы",
-    items: ["Портфолио", "Проекты", "Отзывы", "Контакты"],
+    items: [
+      { name: "Портфолио", link: "/" },
+      { name: "Проекты", link: "/" },
+      { name: "Отзывы", link: "/" },
+      { name: "Контакты", link: "/" },
+      { name: "Админ", link: "/admin" }
+    ],
   },
   {
     title: "Контакты",
-    items: ["+8 (922) 264-08-30", "sk_kaskad@mail.ru", "г. Ялуторовск", "г. Тюмень"],
+    items: [
+      { name: "+8 (922) 264-08-30", link: "/" },
+      { name: "sk_kaskad@mail.ru", link: "/" },
+      { name: "г. Ялуторовск", link: "/" },
+      { name: "г. Тюмень", link: "/" }
+    ],
   },
 ];
+
  
 const currentYear = new Date().getFullYear();
  
@@ -38,16 +58,9 @@ const FooterWithSocialLinksComponent = () => {
                     {title}
                     </Typography>
                     <div className="underline-1-3 mb-4"></div>
-                    {items.map((link) => (
-                    <li key={link}>
-                        <Typography
-                        as="a"
-                        href="#"
-                        color="white"
-                        className="py-1.5 font-normal opacity-70 transition-color hover:text-green-600 hover:opacity-100"
-                        >
-                        {link}
-                        </Typography>
+                    {items.map((item, id) => (
+                    <li key={id}>
+                        <Link className="py-1.5 text-white font-normal opacity-70 transition-color hover:text-green-600 hover:opacity-100" to={item.link} key="">{item.name}</Link>
                     </li>
                     ))}
                 </ul>

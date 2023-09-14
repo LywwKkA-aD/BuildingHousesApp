@@ -5,12 +5,12 @@ import React from 'react';
 
 const ContactUsComponent = () => {
   return (
-    <div className=' flex flex-col justify-center items-center my-10 w-full max-w-screen-2xl'>
+    <div className='mx-auto flex flex-col justify-center items-center my-10 w-full max-w-screen-2xl'>
     <div className='w-full bg-black'>
       <img
       src="https://images.unsplash.com/photo-1466096115517-bceecbfb6fde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2670&q=80"
       alt="image 3"
-      className="h-[50vh] w-full object-cover opacity-50"
+      className="h-[400px] w-full object-cover opacity-50"
       />
     </div>
       <div className='flex flex-col justify-center items-center -mt-96 z-50'>

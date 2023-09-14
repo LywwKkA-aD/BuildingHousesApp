@@ -11,15 +11,15 @@ import ContactsPage from './pages/Contacts/Contacts.Page'
 import HouseDetailPage from './pages/HouseDetail/HouseDetail.Page'
 import ProjectDetailPage from './pages/ProjectDetail/ProjectDetail.Page'
 import AdminPanel from './pages/AdminPanel/AdminPanel.Page'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
 
-const App = () => {
-
-  const isAdminRoute = window.location.pathname.startsWith('/admin');
+const Layout = () => {
+  const location = useLocation();
+  const isAdminRoute = location.pathname.startsWith("/admin");
 
   return (
-    <Router>
+    <>
       {!isAdminRoute && <ComplexNavbarComponent />}
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -32,8 +32,16 @@ const App = () => {
         <Route path="/admin" element={<AdminPanel />} />
       </Routes>
       {!isAdminRoute && <FooterWithSocialLinksComponent />}
+    </>
+  );
+};
+
+const App = () => {
+  return (
+    <Router>
+      <Layout />
     </Router>
   );
-}
+};
 
-export default App
+export default App;
