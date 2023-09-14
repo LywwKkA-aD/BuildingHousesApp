@@ -22,7 +22,7 @@ const PortfolioPage = () => {
     const [houses, setHouses] = useState([]); // Initially an empty array
 
     useEffect(() => {
-        fetch('/houses')
+        fetch('/api/houses')
             .then(response => {
                 if (!response.ok) {
                     throw new Error(`HTTP error! Status: ${response.status}`);

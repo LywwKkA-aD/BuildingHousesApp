@@ -12,7 +12,7 @@ const HomePage = () => {
   const [houses, setHouses] = useState([]);
 
   useEffect(() => {
-    fetch('/houses')
+    fetch('/api/houses')
       .then((response) => {
         if (!response.ok) {
           throw new Error(`HTTP error! Status: ${response.status}`);

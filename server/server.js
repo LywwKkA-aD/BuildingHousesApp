@@ -9,11 +9,11 @@ const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 app.use(cors({ origin: '*' }));
 
-app.use(cors({
-    origin: ["http://104.248.36.229", "http://localhost:3000"],  // Add your frontend's address
-    methods: ["GET", "POST", "PUT", "DELETE"],
-    credentials: true  // This allows session cookies to be sent back and forth
-  }));
+// app.use(cors({
+//     origin: ["http://104.248.36.229", "http://localhost:3001"],  // Add your frontend's address
+//     methods: ["GET", "POST", "PUT", "DELETE"],
+//     credentials: true  // This allows session cookies to be sent back and forth
+//   }));
 
 admin.initializeApp({
     credential: admin.credential.cert(serviceAccount)
@@ -25,7 +25,7 @@ app.get('/', (req, res) => {
     res.send('Welcome to SK-KASKAD72RU API!');
 });
 
-app.get('/houses', async (req, res) => {
+app.get('/api/houses', async (req, res) => {
     try {
         const housesCollection = db.collection('houses');
         const snapshot = await housesCollection.get();
@@ -44,7 +44,7 @@ app.get('/houses', async (req, res) => {
     }
 });
 
-app.get('/plans', async (req, res) => {
+app.get('/api/plans', async (req, res) => {
     try {
         const plansCollection = db.collection('plans');
         const snapshot = await plansCollection.get();
@@ -63,7 +63,7 @@ app.get('/plans', async (req, res) => {
     }
 });
 
-app.put('/houses/:id', async (req, res) => {
+app.put('/api/houses/:id', async (req, res) => {
     try {
         const { id } = req.params;
         const updatedData = req.body;

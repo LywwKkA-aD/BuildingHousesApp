@@ -5,11 +5,10 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/houses': {
+      '/api': {
         target: 'http://localhost:3001',
-        rewrite: (path) => path.startsWith('/houses') ? path : `/houses${path}`
+        changeOrigin: true,
       },
-      '/plans': 'http://localhost:3001'
     }
   }
 })

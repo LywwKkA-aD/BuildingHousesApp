@@ -12,7 +12,7 @@ const HouseDetailPage = () => {
   useEffect(() => {
     window.scrollTo(0, 0);
     
-    Promise.all([fetch('/houses'), fetch('/plans')])
+    Promise.all([fetch('/api/houses'), fetch('/api/plans')])
         .then(([housesResponse, plansResponse]) => {
             if (!housesResponse.ok) {
                 throw new Error(`HTTP error! Status: ${housesResponse.status}`);
