@@ -42,9 +42,9 @@ const ContactsComponent = () => {
                 </div>
                 <div className="flex flex-col md:w-3/5">
                     <div className='flex flex-col justify-center items-left mx-12'>
-                        <h2 className='my-2 text-4xl text font-extralight inline-block'>Напишите нам</h2>
-                        <div className='underline-2-3 mb-4'></div>
-                        <p className=''>
+                        <h2 className='my-2 text-4xl text font-extralight inline-block text-center'>Напишите нам</h2>
+                        <div className='underline-2-3 mb-4 mx-auto'></div>
+                        <p className='text-center'>
                         Подскажем, ответим на любые вопросы
                         </p>
                     </div>

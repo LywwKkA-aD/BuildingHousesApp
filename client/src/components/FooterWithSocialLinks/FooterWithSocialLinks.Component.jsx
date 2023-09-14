@@ -44,7 +44,7 @@ const FooterWithSocialLinksComponent = () => {
     <footer className="relative w-full bg-footerBackGround">
       <div className="mx-auto w-full max-w-screen-2xl px-8 py-8">
         <div className="flex flex-col justify-between lg:flex-row">
-            <div className="flex">
+            <div className="flex mb-8">
                 <img src={logo} alt="logo" className="h-28 w-34 rounded-md bg-white p-2" />
             </div>
             <div className="flex flex-col gap-20 md:flex-row">

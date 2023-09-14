@@ -32,7 +32,7 @@ const HomePage = () => {
             <CarouselWithContentComponent imageClassName='w-full h-full object-cover' carouselClassName='h-[calc(100vh-5rem)] w-auto z-0' content={data}/>
             <WhyUsComponent />
             <div className='mx-auto flex flex-col justify-center items-center my-8 max-w-screen-2xl'>
-                <div className='flex flex-col justify-center items-center mb-4'>
+                <div className='flex flex-col justify-center items-center mb-4 mx-2'>
                     <h2 className='my-2 text-4xl text font-extralight inline-block'>Портфолио</h2>
                     <div className='underline-2-3 mb-4'></div>
                     <p className='text-center max-w-2xl'>
@@ -43,8 +43,8 @@ const HomePage = () => {
                 <PortfolioComponent Houses={houses} />
             </div>
             <div className='mx-auto flex flex-col justify-center items-center my-8 max-w-screen-2xl'>
-                <div className='flex flex-col justify-center items-center mb-4'>
-                    <h2 className='my-2 text-4xl text font-extralight inline-block'>Проекты домов и коттеджей</h2>
+                <div className='flex flex-col justify-center items-center mb-4 mx-4'>
+                    <h2 className='my-2 text-4xl text font-extralight inline-block text-center'>Проекты домов и коттеджей</h2>
                     <div className='underline-2-3 mb-4'></div>
                     <p className='text-center max-w-2xl'>
                     Для нас каждый дом — это отражение индивидуальности его владельца. Мы прилагаем

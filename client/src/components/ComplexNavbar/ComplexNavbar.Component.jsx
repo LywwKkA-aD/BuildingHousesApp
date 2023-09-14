@@ -164,7 +164,7 @@ const ComplexNavbarComponent = () => {
   }, []);
  
   return (
-    <Navbar shadow={ false } className="mx-auto max-w-screen-2xl p-2 lg:pl-6">
+    <Navbar shadow={ false } className="mx-auto max-w-screen-2xl p-2 lg:pl-6 sticky top-0 z-[999]">
       <div className="relative mx-auto flex justify-between items-center text-blue-gray-900">
       <Link to={"/"} key="">
           <img src={logo} alt="logo" className="h-16 w-18" />

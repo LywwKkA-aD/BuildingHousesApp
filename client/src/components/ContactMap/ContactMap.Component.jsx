@@ -4,8 +4,8 @@ import React from 'react';
 const ContactMapComponent = () => {
   return (
     <div className='mx-auto flex flex-col justify-center items-center my-10 max-w-screen-2xl'>
-        <div className='flex flex-col justify-center items-center my-8'>
-            <h2 className='my-2 text-4xl text font-extralight inline-block'>Наши контактные данные</h2>
+        <div className='flex flex-col justify-center items-center my-8 mx-2'>
+            <h2 className='my-2 text-4xl text font-extralight inline-block text-center'>Наши контактные данные</h2>
             <div className='underline-2-3 mb-4'></div>
             <p className='text-center max-w-2xl'>
                 Если у вас возникли вопросы или вам нужна дополнительная
