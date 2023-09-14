@@ -43,10 +43,10 @@ const WhyUsComponent = () => {
         В "КАСКАД Строительная Компания" мы обеспечиваем превосходство на каждом этапе проекта, делая акцент на вашем удовлетворении и превосходстве результата.
         </p>
       </div>
-      <div className='flex flex-wrap justify-center content-center my-4'>
+      <div className='flex flex-wrap justify-center content-center my-4 mx-4'>
         {
             tabs.map((tabs) => (
-                <Card key={tabs.id} className="mt-6 w-96 hover:scale-110 transition-all duration-300 rounded-lg mx-4">
+                <Card key={tabs.id} className="mt-6 max-w-xs hover:scale-110 transition-all duration-300 rounded-lg mx-4">
                     <CardBody>
                         {React.createElement(tabs.icon, { className: "h-[32px] w-[32px] text-green-800 mb-2" })}
                         <Typography variant="h5" color="blue-gray" className="mb-2">

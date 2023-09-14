@@ -15,11 +15,11 @@ const PortfolioCardComponent = ({ house }) => {
     const data = GetFireBaseImageComponent(house.house_id.toString(), 'main.png')
 
     return (
-      <Card className="mt-6 w-96 mx-4 mb-8">
-        <CardHeader color="light-green" className="relative h-56">
+      <Card className="mt-6 max-w-xs mx-4 mb-8">
+        <CardHeader color="light-green" className="relative">
             {
               data.map((image) => (
-                <img src={image.src} className='hover:scale-125 z-50 transition-all duration-300 absolute rounded-lg' key={image.id} />
+                <img src={image.src} className='hover:scale-125 z-50 transition-all duration-300 rounded-lg' key={image.id} />
               ))
             }
         </CardHeader>

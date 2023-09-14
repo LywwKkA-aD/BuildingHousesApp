@@ -59,6 +59,8 @@ const navListMenuItems = [
  
 function NavListMenu() {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false);
+
+  
  
   const renderItems = navListMenuItems.map(({ title, description }) => (
     <a href="#" key={title}>
@@ -134,7 +136,7 @@ function NavList() {
     <ul className="mb-4 mt-2 flex flex-col gap-2 lg:mb-0 lg:mt-0 lg:flex-row lg:items-center">
       <NavListMenu />
       {navListItems.map(({ label, icon, path }) => (
-        <Link to={path} key={label}>
+        <Link to={path} key={label} onClick={() => setIsMenuOpen(false)}>
           <Typography
             variant="small"
             color="blue-gray"
@@ -182,7 +184,7 @@ const ComplexNavbarComponent = () => {
           <Bars2Icon className="h-6 w-6" />
         </IconButton>
       </div>
-      <MobileNav open={isNavOpen} className="overflow-scroll">
+      <MobileNav open={isNavOpen} className="overflow-hidden">
         <NavList />
       </MobileNav>
     </Navbar>

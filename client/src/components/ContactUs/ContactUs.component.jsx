@@ -16,7 +16,7 @@ const ContactUsComponent = () => {
       <div className='flex flex-col justify-center items-center -mt-96 z-50'>
         <h2 className='my-2 text-4xl text font-extralight inline-block text-white'>Напишите нам</h2>
         <div className='underline-2-3 mb-4'></div>
-        <p className='text-center text-white'>
+        <p className='text-center text-white mb-2'>
           Подскажем, ответим на любые вопросы
         </p>
       </div>
