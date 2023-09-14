@@ -1,5 +1,6 @@
 import { Typography } from "@material-tailwind/react";
 import logo from "../../assets/logo.png";
+import React from 'react';
  
 const LINKS = [
   {

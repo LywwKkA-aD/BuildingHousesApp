@@ -7,6 +7,7 @@ import {
     Typography,
     Avatar,
   } from "@material-tailwind/react";
+  import React from 'react';
    
   function HeartIcon() {
     return (

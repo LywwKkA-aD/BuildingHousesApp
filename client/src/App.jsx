@@ -1,4 +1,5 @@
 import './App.css'
+import React from 'react';
 
 import ComplexNavbarComponent from './components/ComplexNavbar/ComplexNavbar.Component'
 import FooterWithSocialLinksComponent from './components/FooterWithSocialLinks/FooterWithSocialLinks.Component'

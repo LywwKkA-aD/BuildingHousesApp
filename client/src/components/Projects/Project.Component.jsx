@@ -1,5 +1,6 @@
 import '../../App.css';
 import ProjectCardComponent from './ProjectCard/ProjectCard.Component';
+import React from 'react';
 
 const ProjectComponent = ({ Houses }) => {
   return (

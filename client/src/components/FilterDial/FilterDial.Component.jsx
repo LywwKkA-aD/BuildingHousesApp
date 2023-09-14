@@ -11,6 +11,8 @@ import {
     CogIcon,
     Square3Stack3DIcon,
   } from "@heroicons/react/24/outline";
+
+  import React from 'react';
    
 FilterDialComponent = () => {
     return (

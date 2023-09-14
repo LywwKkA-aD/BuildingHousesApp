@@ -1,4 +1,5 @@
 import { Carousel, IconButton } from "@material-tailwind/react";
+import React from 'react';
 
 const CarouselWithContentComponent = ({ imageClassName, content, carouselClassName }) => {
   return (

@@ -1,5 +1,6 @@
 import '../../App.css';
 import { Input, Textarea, Button } from "@material-tailwind/react";
+import React from 'react';
 
 
 const ContactUsComponent = () => {

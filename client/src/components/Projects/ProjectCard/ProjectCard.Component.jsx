@@ -8,6 +8,7 @@ import {
 
 import { Link } from 'react-router-dom';
 import GetFireBaseImageComponent from '../../useFirebaseImages/useFirebaseImagesHook';
+import React from 'react';
    
 const ProjectCardComponent = ({ house }) => {
     const data = GetFireBaseImageComponent(house.house_id.toString(), 'project.JPG')
