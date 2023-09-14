@@ -6,7 +6,7 @@ const LoginComponent = ({ onLoginSuccess, onLoginError }) => {
     const [password, setPassword] = useState('');
 
     const handleLogin = () => {
-        if (username === 'admin' && password === 'admin') {
+        if (username === 'admin' && password === 'V5f49weqw1f9qe56qw984') {
             onLoginSuccess();  // Notify the parent component of successful login
         } else {
             onLoginError();    // Notify the parent component of an error
