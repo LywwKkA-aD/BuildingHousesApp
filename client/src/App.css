@@ -1,0 +1,15 @@
+.underline-1-3 {
+    content: '';
+    display: block;
+    width: 33.33%; /* 1/3 of the element's width */
+    height: 4px; /* or whatever thickness you want for the underline */
+    background-color: green; /* or use a Tailwind color class value, e.g., #10B981 for .bg-green-500 */
+  }
+
+  .underline-2-3 {
+    content: '';
+    display: block;
+    width: 10%; /* 1/3 of the element's width */
+    height: 4px; /* or whatever thickness you want for the underline */
+    background-color: green; /* or use a Tailwind color class value, e.g., #10B981 for .bg-green-500 */
+  }

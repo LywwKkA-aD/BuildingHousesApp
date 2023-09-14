@@ -1,0 +1,375 @@
+[
+      {
+        "id": "kd_123_3",
+        "name": "Загородный дом",
+        "description": "A brief description of the house. A brief description of the house. A brief description of the house.",
+        "bedrooms": 3,
+        "floors": 1,
+        "total_area": 123,
+        "housePhotos": [
+          "/assets/kd_123_3/IMG_2735-min.png"
+        ],
+        "plan": [
+          {
+            "Total area of the property": "123 m²",
+            "Porch": "3 m²",
+            "Hallway": "3.85 m²",
+            "Boiler room": "5.5 m²",
+            "Kitchen": "9.6 m²",
+            "Bedroom": [
+               "13.47 m²",
+               "16.35 m²",
+               "13 m²"
+            ],
+            "Bathroom": [
+               "5.7 m²",
+               "1.9 m²"
+            ],
+            "Corridor": "9.9 m²",
+            "Living room": "27.8 m²",
+            "Terrace": "14 m²"
+         }
+        ],
+        "planPhoto": "url/to/plan/photo.jpg",
+        "buildPhotos": [
+          "/assets/kd_123_3/IMG_3964-min.JPG",
+          "url/to/build/photo2.jpg"
+        ],
+        "pricing": [
+            {
+              "type": "Rough Finish",
+              "price": "7,200,000₽"
+            },
+            {
+              "type": "Turnkey Finish",
+              "price": "8,425,000₽"
+            }
+          ],
+        "House fittings": {
+            "Rough finish": {
+               "Excellent layout": null,
+               "Foundation": null,
+               "Walls": null,
+               "Exterior cladding": null,
+               "Ceiling overlapping": null,
+               "Roof": null,
+               "Insulation": null,
+               "Windows": null,
+               "Doors": null,
+               "Utilities": {
+                  "Water supply": null,
+                  "Electricity": null,
+                  "Gas": null,
+                  "Heating": null,
+                  "Warm water floors": null,
+                  "Sewage": null
+               }
+            },
+            "Final finish": {
+               "Walls": null,
+               "Floors": null,
+               "Ceilings": null,
+               "Pre-assembled interior doors": null,
+               "Windows": null,
+               "Plumbing": null,
+               "Electricity": null
+            }
+         }
+      },
+      {
+        "id": "kd_115_3",
+        "name": "Загородный дом",
+        "description": "A brief description of the house. A brief description of the house. A brief description of the house.",
+        "bedrooms": 3,
+        "floors": 1,
+        "total_area": 123,
+        "housePhotos": [
+          "/assets/kd_123_3/IMG_2735-min.png"
+        ],
+        "plan": [
+          {
+            "Total area of the property": "115.5 m²",
+            "Bathroom": [
+               "3.91 m²",
+               "4.08 m²"
+            ],
+            "Bedroom": [
+               "13.64 m²",
+               "13.64 m²",
+               "12.13 m²"
+            ],
+            "Storage": "1.32 m²",
+            "Hallway": "3.72 m²",
+            "Boiler room": "4.63 m²",
+            "Kitchen": "10.46 m²",
+            "Living room": "25.32 m²",
+            "Corridor": "9.4 m²",
+            "Wardrobe": "4 m²",
+            "Terrace": "9.23 m²"
+         }
+        ],
+        "planPhoto": "url/to/plan/photo.jpg",
+        "buildPhotos": [
+          "/assets/kd_123_3/IMG_3964-min.JPG",
+          "url/to/build/photo2.jpg"
+        ],
+        "pricing": [
+            {
+              "type": "Rough Finish",
+              "price": "7,000,000₽"
+            },
+            {
+              "type": "Turnkey Finish",
+              "price": "8,200,000₽"
+            }
+          ],
+        "House fittings": {
+            "Rough finish": {
+               "Excellent layout": null,
+               "Foundation": null,
+               "Walls": null,
+               "Exterior cladding": null,
+               "Ceiling overlapping": null,
+               "Roof": null,
+               "Insulation": null,
+               "Windows": null,
+               "Doors": null,
+               "Utilities": {
+                  "Water supply": null,
+                  "Electricity": null,
+                  "Gas": null,
+                  "Heating": null,
+                  "Warm water floors": null,
+                  "Sewage": null
+               }
+            },
+            "Final finish": {
+               "Walls": null,
+               "Floors": null,
+               "Ceilings": null,
+               "Pre-assembled interior doors": null,
+               "Windows": null,
+               "Plumbing": null,
+               "Electricity": null
+            }
+         }
+      },
+      {
+        "id": "kd_89_2",
+        "name": "Загородный дом",
+        "description": "A brief description of the house. A brief description of the house. A brief description of the house.",
+        "bedrooms": 3,
+        "floors": 1,
+        "total_area": 123,
+        "housePhotos": [
+          "/assets/kd_123_3/IMG_2735-min.png"
+        ],
+        "plan": [
+          {
+            "Total area of the property": "123 m²",
+            "Hallway": "3.8 m²",
+            "Bedroom": [
+               "14.4 m²",
+               "14.4 m²"
+            ],
+            "Corridor": "9 m²",
+            "Bathroom": "5.8 m²",
+            "Boiler room": "5.8 m²",
+            "Kitchen-Living room": "36.2 m²"
+         }
+        ],
+        "planPhoto": "url/to/plan/photo.jpg",
+        "buildPhotos": [
+          "/assets/kd_123_3/IMG_3964-min.JPG",
+          "url/to/build/photo2.jpg"
+        ],
+        "pricing": [
+            {
+              "type": "Rough Finish",
+              "price": "7,000,000₽"
+            },
+            {
+              "type": "Turnkey Finish",
+              "price": "8,200,000₽"
+            }
+          ],
+        "House fittings": {
+            "Rough finish": {
+               "Excellent layout": null,
+               "Foundation": null,
+               "Walls": null,
+               "Exterior cladding": null,
+               "Ceiling overlapping": null,
+               "Roof": null,
+               "Insulation": null,
+               "Windows": null,
+               "Doors": null,
+               "Utilities": {
+                  "Water supply": null,
+                  "Electricity": null,
+                  "Gas": null,
+                  "Heating": null,
+                  "Warm water floors": null,
+                  "Sewage": null
+               }
+            },
+            "Final finish": {
+               "Walls": null,
+               "Floors": null,
+               "Ceilings": null,
+               "Pre-assembled interior doors": null,
+               "Windows": null,
+               "Plumbing": null,
+               "Electricity": null
+            }
+         }
+      },
+      {
+        "id": "kd_87_2",
+        "name": "Загородный дом",
+        "description": "A brief description of the house. A brief description of the house. A brief description of the house.",
+        "bedrooms": 3,
+        "floors": 1,
+        "total_area": 123,
+        "housePhotos": [
+          "/assets/kd_123_3/IMG_2735-min.png"
+        ],
+        "plan": [
+          {
+            "Total area of the property": "87.3 m²",
+            "Hallway": [
+               "5.54 m²",
+               "9.65 m²"
+            ],
+            "Boiler room": "6.16 m²",
+            "Kitchen": "12.25 m²",
+            "Bedroom": [
+               "12.25 m²",
+               "12.25 m²"
+            ],
+            "Bathroom": "4.76 m²",
+            "Wardrobe": "9.9 m²",
+            "Living room": "21.12 m²"
+         }
+        ],
+        "planPhoto": "url/to/plan/photo.jpg",
+        "buildPhotos": [
+          "/assets/kd_123_3/IMG_3964-min.JPG",
+          "url/to/build/photo2.jpg"
+        ],
+        "pricing": [
+            {
+              "type": "Rough Finish",
+              "price": "7,000,000₽"
+            },
+            {
+              "type": "Turnkey Finish",
+              "price": "8,200,000₽"
+            }
+          ],
+        "House fittings": {
+            "Rough finish": {
+               "Excellent layout": null,
+               "Foundation": null,
+               "Walls": null,
+               "Exterior cladding": null,
+               "Ceiling overlapping": null,
+               "Roof": null,
+               "Insulation": null,
+               "Windows": null,
+               "Doors": null,
+               "Utilities": {
+                  "Water supply": null,
+                  "Electricity": null,
+                  "Gas": null,
+                  "Heating": null,
+                  "Warm water floors": null,
+                  "Sewage": null
+               }
+            },
+            "Final finish": {
+               "Walls": null,
+               "Floors": null,
+               "Ceilings": null,
+               "Pre-assembled interior doors": null,
+               "Windows": null,
+               "Plumbing": null,
+               "Electricity": null
+            }
+         }
+      },
+      {
+        "id": "kd_87_3",
+        "name": "Загородный дом",
+        "description": "A brief description of the house. A brief description of the house. A brief description of the house.",
+        "bedrooms": 3,
+        "floors": 1,
+        "total_area": 123,
+        "housePhotos": [
+          "/assets/kd_123_3/IMG_2735-min.png"
+        ],
+        "plan": [
+          {
+            "Total area of the property": "87.5 m²",
+            "Boiler room": "4.76 m²",
+            "Hallway": "2.9 m²",
+            "Corridor": "4.16 m²",
+            "Bathroom": "4.76 m²",
+            "Bedroom": [
+               "9.42 m²",
+               "12.25 m²",
+               "12.25 m²"
+            ],
+            "Kitchen": "12.25 m²",
+            "Living room": "21.12 m²",
+            "Wardrobe": "3.32 m²"
+         }
+        ],
+        "planPhoto": "url/to/plan/photo.jpg",
+        "buildPhotos": [
+          "/assets/kd_123_3/IMG_3964-min.JPG",
+          "url/to/build/photo2.jpg"
+        ],
+        "pricing": [
+            {
+              "type": "Rough Finish",
+              "price": "7,000,000₽"
+            },
+            {
+              "type": "Turnkey Finish",
+              "price": "8,200,000₽"
+            }
+          ],
+        "House fittings": {
+            "Rough finish": {
+               "Excellent layout": null,
+               "Foundation": null,
+               "Walls": null,
+               "Exterior cladding": null,
+               "Ceiling overlapping": null,
+               "Roof": null,
+               "Insulation": null,
+               "Windows": null,
+               "Doors": null,
+               "Utilities": {
+                  "Water supply": null,
+                  "Electricity": null,
+                  "Gas": null,
+                  "Heating": null,
+                  "Warm water floors": null,
+                  "Sewage": null
+               }
+            },
+            "Final finish": {
+               "Walls": null,
+               "Floors": null,
+               "Ceilings": null,
+               "Pre-assembled interior doors": null,
+               "Windows": null,
+               "Plumbing": null,
+               "Electricity": null
+            }
+         }
+      }
+]
+  
