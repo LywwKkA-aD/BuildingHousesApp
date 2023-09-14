@@ -15,6 +15,10 @@ admin.initializeApp({
 
 const db = admin.firestore();
 
+app.get('/', (req, res) => {
+    res.send('Welcome to SK-KASKAD72RU API!');
+});
+
 app.get('/houses', async (req, res) => {
     try {
         const housesCollection = db.collection('houses');
