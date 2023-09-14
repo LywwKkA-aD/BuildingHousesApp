@@ -19,7 +19,7 @@ const Layout = () => {
   const isAdminRoute = location.pathname.startsWith("/admin");
 
   return (
-    <>
+    <div className='overflow-x-hidden'>
       {!isAdminRoute && <ComplexNavbarComponent />}
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -32,7 +32,7 @@ const Layout = () => {
         <Route path="/admin" element={<AdminPanel />} />
       </Routes>
       {!isAdminRoute && <FooterWithSocialLinksComponent />}
-    </>
+    </div>
   );
 };
 
