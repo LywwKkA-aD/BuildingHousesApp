@@ -28,10 +28,10 @@ const LINKS = [
   {
     title: "Контакты",
     items: [
-      { name: "+8 (922) 264-08-30", link: "/" },
-      { name: "sk_kaskad@mail.ru", link: "/" },
-      { name: "г. Ялуторовск", link: "/" },
-      { name: "г. Тюмень", link: "/" }
+      { name: "+8 (777) 777-77-77", link: "/" },
+      { name: "test@mail.ru", link: "/" },
+      { name: "г. Тула", link: "/" },
+      { name: "г. Яцщшк", link: "/" }
     ],
   },
 ];

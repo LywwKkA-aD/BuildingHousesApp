@@ -17,7 +17,7 @@ const ContactsComponent = () => {
                         </div>
                         <div className="flex flex-col">
                             <p className="font-extralight">Телефон:</p>
-                            <p className="font-bold">+8 (922) 264-08-30</p>
+                            <p className="font-bold">+8 (777) 777-77-77</p>
                         </div>
                     </div>
                     <div className="flex flex-raw m-2">
@@ -26,7 +26,7 @@ const ContactsComponent = () => {
                         </div>
                         <div className="flex flex-col">
                             <p className="font-extralight">Почта:</p>
-                            <p className="font-bold">sk_kaskad@mail.ru</p>
+                            <p className="font-bold">test@mail.ru</p>
                         </div>
                     </div>
                     <div className="flex flex-raw m-2">
@@ -35,8 +35,8 @@ const ContactsComponent = () => {
                         </div>
                         <div className="flex flex-col">
                             <p className="font-extralight">Адресс:</p>
-                            <p className="font-bold">Ул. Володарского, д.</p>
-                            <p className="font-bold">70, Тюмень</p>
+                            <p className="font-bold">Ул. Атцйшрвйцш, д.</p>
+                            <p className="font-bold">80, Тула</p>
                         </div>
                     </div>
                 </div>
