@@ -4,10 +4,10 @@ import React from 'react';
 
 const ContactsPage = () => {
     return (
-        <>
+        <div className="overflow-x-hidden">
             <ContactMapComponent />
             <ContactsComponent />
-        </>
+        </div>
     )
 }
 

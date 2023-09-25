@@ -22,7 +22,7 @@ const ProjectCardComponent = ({ house }) => {
           }
         </CardHeader>
         <CardBody className="flex flex-col justify-between">
-          <div className="flex flex-raw justify-between">
+          <div className="flex flex-raw justify-between items-end">
             <Typography variant="h5" color="blue-gray" className="mb-2">
               {house.name}
             </Typography>

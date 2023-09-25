@@ -47,7 +47,7 @@ const PortfolioPage = () => {
         );
     });
   return (
-    <div className='flex flex-col justify-center'>
+    <div className='flex flex-col justify-center overflow-x-hidden'>
         <div className='mx-auto flex flex-col my-10 max-w-screen-2xl'>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='my-2 text-4xl text font-extralight inline-block'>Готовые дома</h2>

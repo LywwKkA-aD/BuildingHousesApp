@@ -46,7 +46,7 @@ const ProjectDetailPage = () => {
   } else {
 
   return (
-    <div className='flex flex-col justify-center items-center'>
+    <div className='flex flex-col justify-center items-center overflow-x-hidden'>
             <div className='flex flex-col justify-center items-center'>
                 <h2 className='my-2 text-4xl text font-extralight inline-block'>{house.name}</h2>
                 <div className='underline-2-3 mb-4'></div>

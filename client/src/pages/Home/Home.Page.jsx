@@ -28,7 +28,7 @@ const HomePage = () => {
   }, []); // Run once when component mounts
 
   return (
-    <div>   
+    <div className='overflow-x-hidden'>   
             <CarouselWithContentComponent imageClassName='w-full h-full object-cover' carouselClassName='h-[calc(100vh-5rem)] w-auto z-0' content={data}/>
             <WhyUsComponent />
             <div className='mx-auto flex flex-col justify-center items-center my-8 max-w-screen-2xl'>
